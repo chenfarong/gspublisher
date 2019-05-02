@@ -55,7 +55,7 @@ var XNet = cc.Class({
     },
 
     Open: function Open() {
-      if (this._socket.readyState != WebSocket.OPEN) {
+      if (this._socket == null || this._socket.readyState != WebSocket.OPEN) {
         console.log("connect " + this.ws_host);
         //            if(this._socket!=null) delete this._socket;
 

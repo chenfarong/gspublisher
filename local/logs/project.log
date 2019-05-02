@@ -1,434 +1,76 @@
-2019-04-28T13:38:45.698Z - normal: Load ~/.CocosCreator/settings.json
-2019-04-28T13:38:45.730Z - normal: Initializing Asset Database
-2019-04-28T13:38:45.732Z - normal: checking language setting...
-2019-04-28T13:38:45.732Z - normal: Language: zh
-2019-04-28T13:38:46.260Z - success: preview server running at http://localhost:7456
-2019-04-28T13:38:46.273Z - success: protocol editor-framework registered
-2019-04-28T13:38:46.273Z - success: protocol app registered
-2019-04-28T13:38:46.273Z - success: protocol theme registered
-2019-04-28T13:38:46.273Z - success: protocol packages registered
-2019-04-28T13:38:46.273Z - success: protocol uuid registerred
-2019-04-28T13:38:46.273Z - success: protocol db registerred
-2019-04-28T13:38:46.273Z - success: protocol thumbnail registerred
-2019-04-28T13:38:46.274Z - success: protocol unpack registerred
-2019-04-28T13:38:46.274Z - success: protocol disable-commonjs registerred
-2019-04-28T13:38:46.357Z - normal: connected!
-2019-04-28T13:38:46.359Z - normal: Check project /Users/chenfarong/publisher
-2019-04-28T13:38:46.360Z - normal: Initializing project /Users/chenfarong/publisher
-2019-04-28T13:38:46.838Z - normal: Initializing Cocos2d
-2019-04-28T13:38:47.363Z - normal: Initializing engine extends
-2019-04-28T13:38:47.365Z - normal: Loading editor/builtin packages from /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin
-2019-04-28T13:38:47.369Z - normal: Loading builtin packages from /Applications/CocosCreator.app/Contents/Resources/builtin
-2019-04-28T13:38:47.878Z - success: assets loaded
-2019-04-28T13:38:47.879Z - success: asset-db-debugger loaded
-2019-04-28T13:38:47.919Z - success: builder loaded
-2019-04-28T13:38:47.919Z - success: color-picker loaded
-2019-04-28T13:38:48.003Z - success: cocos-analytics loaded
-2019-04-28T13:38:48.003Z - success: google-play-instant loaded
-2019-04-28T13:38:48.016Z - success: console loaded
-2019-04-28T13:38:48.016Z - success: jsb-adapter loaded
-2019-04-28T13:38:48.090Z - success: fb-instant-games loaded
-2019-04-28T13:38:48.090Z - success: oppo-runtime loaded
-2019-04-28T13:38:48.095Z - success: google-instant-games loaded
-2019-04-28T13:38:48.095Z - success: package-manager loaded
-2019-04-28T13:38:48.193Z - success: hierarchy loaded
-2019-04-28T13:38:48.193Z - success: qqplay-adapter loaded
-2019-04-28T13:38:48.210Z - success: inspector loaded
-2019-04-28T13:38:48.210Z - success: sdkbox loaded
-2019-04-28T13:38:48.215Z - success: keystore loaded
-2019-04-28T13:38:48.215Z - success: tester loaded
-2019-04-28T13:38:48.224Z - success: node-library loaded
-2019-04-28T13:38:48.224Z - success: ui-grid loaded
-2019-04-28T13:38:48.231Z - success: package-asset loaded
-2019-04-28T13:38:48.231Z - success: ui-kit-preview-extra loaded
-2019-04-28T13:38:48.235Z - success: preferences loaded
-2019-04-28T13:38:48.235Z - success: ui-kit-preview loaded
-2019-04-28T13:38:48.242Z - success: project-exporter loaded
-2019-04-28T13:38:48.242Z - success: ui-kit loaded
-2019-04-28T13:38:48.261Z - success: project-importer loaded
-2019-04-28T13:38:48.261Z - success: ui-tree loaded
-2019-04-28T13:38:48.267Z - success: project-settings loaded
-2019-04-28T13:38:48.267Z - success: vivo-runtime loaded
-2019-04-28T13:38:48.273Z - success: scene loaded
-2019-04-28T13:38:48.273Z - success: weapp-adapter loaded
-2019-04-28T13:38:48.274Z - success: simulator-debugger loaded
-2019-04-28T13:38:48.275Z - success: sprite-editor loaded
-2019-04-28T13:38:48.282Z - success: store loaded
-2019-04-28T13:38:48.288Z - success: timeline loaded
-2019-04-28T13:38:48.672Z - normal: Loading packages
-2019-04-28T13:38:48.678Z - normal: Watching packages
-2019-04-28T13:38:48.739Z - normal: Run Application
-2019-04-28T13:39:01.847Z - normal: Start building with options : {
-  "actualPlatform": "web-desktop",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/chenfarong/publisher/build",
-  "debug": false,
-  "dest": "/Users/chenfarong/publisher/build/web-desktop",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "web-desktop",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait",
-    "zip": false
-  },
-  "scenes": [
-    "2d2f792f-a40c-49bb-a189-ed176a246e49"
-  ],
-  "sourceMaps": true,
-  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
-  "template": "link",
-  "title": "g-publisher-v1",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "landscape",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wx6ac3f5090a6b99c5",
-    "orientation": "portrait",
-    "subContext": ""
-  },
-  "xxteaKey": "3ff1566b-57da-48",
-  "zipCompressJs": true,
-  "project": "/Users/chenfarong/publisher",
-  "projectName": "g-publisher-v1",
-  "debugBuildWorker": false
-}
-2019-04-28T13:39:01.850Z - normal: Building /Users/chenfarong/publisher
-2019-04-28T13:39:01.850Z - normal: Destination /Users/chenfarong/publisher/build/web-desktop
-2019-04-28T13:39:02.035Z - normal: Delete /Users/chenfarong/publisher/build/web-desktop/**/*
-2019-04-28T13:39:03.709Z - normal: Start building assets
-2019-04-28T13:39:03.709Z - normal: Start spawn build-worker
-2019-04-28T13:39:04.261Z - normal: Finish spawn build-worker
-2019-04-28T13:39:04.261Z - normal: Start init build-worker
-2019-04-28T13:39:06.657Z - normal: Finish init build-worker
-2019-04-28T13:39:06.657Z - normal: Start build-assets in worker
-2019-04-28T13:39:06.829Z - normal: Finish build-assets in worker
-2019-04-28T13:39:06.832Z - normal: Finish building assets
-2019-04-28T13:39:06.837Z - normal: Start building plugin scripts
-2019-04-28T13:39:06.874Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-04-28T13:39:06.881Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-desktop/template/index.html
-2019-04-28T13:39:06.890Z - normal: Built to "/Users/chenfarong/publisher/build/web-desktop" successfully
-2019-04-29T01:56:54.443Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:10140
-2019-04-29T01:56:54.451Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:10141
-2019-04-29T01:56:54.452Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:10142
-2019-04-29T01:56:54.452Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:10143
-2019-04-29T01:56:54.458Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:10144
-2019-04-29T01:56:54.460Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:10145
-2019-04-29T01:57:24.931Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:10336
-2019-04-29T01:57:24.933Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:10338
-2019-04-29T01:57:24.933Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:10339
-2019-04-29T02:00:31.545Z - failed: [db-task][sync-changes] Failed to import asset /Users/chenfarong/publisher/assets/Script/HelloWorld.js, message: Compile error: SyntaxError: /Users/chenfarong/publisher/assets/Script/HelloWorld.js: Unexpected token (101:41)
-   99 | 
-  100 |         if (label) {
-> 101 |           let anim=label.getComponent(cc.)
-      |                                          ^
-  102 |           //label.node.color = cc.color(0, 255, 0, 255);
-  103 |           //label.node.visible = false;
-  104 |           let xlab = label.getComponent(cc.Label);
-    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
-    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
-    at Parser.pp$3.parseIdentifier (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4332:10)
-    at Parser.pp$3.parseSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3517:30)
-    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3504:15)
-    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
-    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
-    at Parser.pp$3.parseExprListItem (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4312:16)
-2019-04-29T02:03:41.264Z - normal: Start building with options : {
-  "actualPlatform": "web-desktop",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/chenfarong/publisher/build",
-  "debug": false,
-  "dest": "/Users/chenfarong/publisher/build/web-desktop",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "web-desktop",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait",
-    "zip": false
-  },
-  "scenes": [
-    "2d2f792f-a40c-49bb-a189-ed176a246e49"
-  ],
-  "sourceMaps": true,
-  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
-  "template": "link",
-  "title": "g-publisher-v1",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "landscape",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wx6ac3f5090a6b99c5",
-    "orientation": "portrait",
-    "subContext": ""
-  },
-  "xxteaKey": "3ff1566b-57da-48",
-  "zipCompressJs": true,
-  "project": "/Users/chenfarong/publisher",
-  "projectName": "g-publisher-v1",
-  "debugBuildWorker": false
-}
-2019-04-29T02:03:41.267Z - normal: Building /Users/chenfarong/publisher
-2019-04-29T02:03:41.268Z - normal: Destination /Users/chenfarong/publisher/build/web-desktop
-2019-04-29T02:03:41.271Z - normal: Delete /Users/chenfarong/publisher/build/web-desktop/**/*
-2019-04-29T02:03:43.285Z - normal: Start building assets
-2019-04-29T02:03:43.285Z - normal: Start spawn build-worker
-2019-04-29T02:03:43.890Z - normal: Finish spawn build-worker
-2019-04-29T02:03:43.891Z - normal: Start init build-worker
-2019-04-29T02:03:46.427Z - normal: Finish init build-worker
-2019-04-29T02:03:46.427Z - normal: Start build-assets in worker
-2019-04-29T02:03:46.655Z - normal: Finish build-assets in worker
-2019-04-29T02:03:46.658Z - normal: Finish building assets
-2019-04-29T02:03:46.666Z - normal: Start building plugin scripts
-2019-04-29T02:03:46.703Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-04-29T02:03:46.708Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-desktop/template/index.html
-2019-04-29T02:03:46.718Z - normal: Built to "/Users/chenfarong/publisher/build/web-desktop" successfully
-2019-04-29T02:05:23.470Z - normal: Start building with options : {
-  "actualPlatform": "web-desktop",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/chenfarong/publisher/build",
-  "debug": false,
-  "dest": "/Users/chenfarong/publisher/build/web-desktop",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "web-desktop",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait",
-    "zip": false
-  },
-  "scenes": [
-    "2d2f792f-a40c-49bb-a189-ed176a246e49"
-  ],
-  "sourceMaps": true,
-  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
-  "template": "link",
-  "title": "g-publisher-v1",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "landscape",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wx6ac3f5090a6b99c5",
-    "orientation": "portrait",
-    "subContext": ""
-  },
-  "xxteaKey": "3ff1566b-57da-48",
-  "zipCompressJs": true,
-  "project": "/Users/chenfarong/publisher",
-  "projectName": "g-publisher-v1",
-  "debugBuildWorker": false
-}
-2019-04-29T02:05:23.474Z - normal: Building /Users/chenfarong/publisher
-2019-04-29T02:05:23.474Z - normal: Destination /Users/chenfarong/publisher/build/web-desktop
-2019-04-29T02:05:23.477Z - normal: Delete /Users/chenfarong/publisher/build/web-desktop/**/*
-2019-04-29T02:05:25.245Z - normal: Start building assets
-2019-04-29T02:05:25.245Z - normal: Start spawn build-worker
-2019-04-29T02:05:25.836Z - normal: Finish spawn build-worker
-2019-04-29T02:05:25.837Z - normal: Start init build-worker
-2019-04-29T02:05:28.352Z - normal: Finish init build-worker
-2019-04-29T02:05:28.352Z - normal: Start build-assets in worker
-2019-04-29T02:05:28.534Z - normal: Finish build-assets in worker
-2019-04-29T02:05:28.537Z - normal: Finish building assets
-2019-04-29T02:05:28.542Z - normal: Start building plugin scripts
-2019-04-29T02:05:28.579Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-04-29T02:05:28.583Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-desktop/template/index.html
-2019-04-29T02:05:28.596Z - normal: Built to "/Users/chenfarong/publisher/build/web-desktop" successfully
-2019-04-29T02:06:43.981Z - normal: Start building with options : {
-  "actualPlatform": "android",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "android-28",
-  "appABIs": [
-    "x86",
-    "armeabi-v7a"
-  ],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "/Users/chenfarong/publisher/build",
-  "debug": false,
-  "dest": "/Users/chenfarong/publisher/build/jsb-link",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.gpublisher",
-  "platform": "android",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait",
-    "zip": false
-  },
-  "scenes": [
-    "2d2f792f-a40c-49bb-a189-ed176a246e49"
-  ],
-  "sourceMaps": true,
-  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
-  "template": "link",
-  "title": "g-publisher-v1",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "landscape",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wx6ac3f5090a6b99c5",
-    "orientation": "portrait",
-    "subContext": ""
-  },
-  "xxteaKey": "3ff1566b-57da-48",
-  "zipCompressJs": true,
-  "project": "/Users/chenfarong/publisher",
-  "projectName": "g-publisher-v1",
-  "debugBuildWorker": false
-}
-2019-04-29T02:06:43.981Z - normal: Building /Users/chenfarong/publisher
-2019-04-29T02:06:43.981Z - normal: Destination /Users/chenfarong/publisher/build/jsb-link
-2019-04-29T02:06:43.982Z - normal: Delete /Users/chenfarong/publisher/build/jsb-link/res/**/*,/Users/chenfarong/publisher/build/jsb-link/src/*/
-2019-04-29T02:06:44.008Z - normal: Checked Python Version [2.7.10]
-2019-04-29T02:06:45.319Z - normal: Creating native cocos project to  /Users/chenfarong/publisher/build/jsb-link
-2019-04-29T02:07:51.306Z - normal: Start building assets
-2019-04-29T02:07:51.307Z - normal: Start spawn build-worker
-2019-04-29T02:07:51.882Z - normal: Finish spawn build-worker
-2019-04-29T02:07:51.883Z - normal: Start init build-worker
-2019-04-29T02:07:54.329Z - normal: Finish init build-worker
-2019-04-29T02:07:54.330Z - normal: Start build-assets in worker
-2019-04-29T02:07:54.398Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
-2019-04-29T02:07:54.505Z - normal: Finish build-assets in worker
-2019-04-29T02:07:54.508Z - normal: Finish building assets
-2019-04-29T02:07:54.513Z - normal: Start building plugin scripts
-2019-04-29T02:07:54.568Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-04-29T02:07:54.694Z - normal: Checked Python Version [2.7.10]
-2019-04-29T02:07:56.011Z - normal: Built to "/Users/chenfarong/publisher/build/jsb-link" successfully
-2019-04-29T02:08:03.426Z - normal: Checked Python Version [2.7.10]
-2019-04-29T02:08:04.577Z - normal: Start to compile native project. Please wait...
-2019-04-29T02:08:04.577Z - normal: The log file path [ /Users/chenfarong/.CocosCreator/logs/native.log ]
-2019-04-29T02:10:17.035Z - normal: Compile native project successfully.
-2019-04-29T02:15:59.441Z - info: shutdown preview server
+2019-04-29T13:20:36.301Z - normal: Load ~/.CocosCreator/settings.json
+2019-04-29T13:20:36.338Z - normal: Initializing Asset Database
+2019-04-29T13:20:36.340Z - normal: checking language setting...
+2019-04-29T13:20:36.340Z - normal: Language: zh
+2019-04-29T13:20:36.869Z - success: preview server running at http://localhost:7456
+2019-04-29T13:20:36.912Z - success: protocol editor-framework registered
+2019-04-29T13:20:36.912Z - success: protocol app registered
+2019-04-29T13:20:36.912Z - success: protocol theme registered
+2019-04-29T13:20:36.913Z - success: protocol packages registered
+2019-04-29T13:20:36.913Z - success: protocol uuid registerred
+2019-04-29T13:20:36.913Z - success: protocol db registerred
+2019-04-29T13:20:36.913Z - success: protocol thumbnail registerred
+2019-04-29T13:20:36.913Z - success: protocol unpack registerred
+2019-04-29T13:20:36.913Z - success: protocol disable-commonjs registerred
+2019-04-29T13:20:37.031Z - normal: connected!
+2019-04-29T13:20:37.032Z - normal: Check project /Users/chenfarong/gspublisher
+2019-04-29T13:20:37.033Z - normal: Initializing project /Users/chenfarong/gspublisher
+2019-04-29T13:20:37.494Z - normal: Initializing Cocos2d
+2019-04-29T13:20:38.027Z - normal: Initializing engine extends
+2019-04-29T13:20:38.029Z - normal: Loading editor/builtin packages from /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin
+2019-04-29T13:20:38.033Z - normal: Loading builtin packages from /Applications/CocosCreator.app/Contents/Resources/builtin
+2019-04-29T13:20:38.577Z - success: assets loaded
+2019-04-29T13:20:38.577Z - success: asset-db-debugger loaded
+2019-04-29T13:20:38.635Z - success: builder loaded
+2019-04-29T13:20:38.635Z - success: color-picker loaded
+2019-04-29T13:20:38.719Z - success: cocos-analytics loaded
+2019-04-29T13:20:38.720Z - success: google-play-instant loaded
+2019-04-29T13:20:38.740Z - success: console loaded
+2019-04-29T13:20:38.740Z - success: jsb-adapter loaded
+2019-04-29T13:20:38.773Z - success: fb-instant-games loaded
+2019-04-29T13:20:38.774Z - success: oppo-runtime loaded
+2019-04-29T13:20:38.803Z - success: google-instant-games loaded
+2019-04-29T13:20:38.804Z - success: package-manager loaded
+2019-04-29T13:20:38.947Z - success: hierarchy loaded
+2019-04-29T13:20:38.947Z - success: qqplay-adapter loaded
+2019-04-29T13:20:38.975Z - success: inspector loaded
+2019-04-29T13:20:38.975Z - success: sdkbox loaded
+2019-04-29T13:20:38.995Z - success: keystore loaded
+2019-04-29T13:20:38.995Z - success: tester loaded
+2019-04-29T13:20:39.113Z - success: node-library loaded
+2019-04-29T13:20:39.113Z - success: ui-grid loaded
+2019-04-29T13:20:39.128Z - success: package-asset loaded
+2019-04-29T13:20:39.128Z - success: ui-kit-preview-extra loaded
+2019-04-29T13:20:39.146Z - success: preferences loaded
+2019-04-29T13:20:39.146Z - success: ui-kit-preview loaded
+2019-04-29T13:20:39.167Z - success: project-exporter loaded
+2019-04-29T13:20:39.167Z - success: ui-kit loaded
+2019-04-29T13:20:39.195Z - success: project-importer loaded
+2019-04-29T13:20:39.195Z - success: ui-tree loaded
+2019-04-29T13:20:39.316Z - normal: Loading packages
+2019-04-29T13:20:39.318Z - success: project-settings loaded
+2019-04-29T13:20:39.318Z - success: vivo-runtime loaded
+2019-04-29T13:20:39.332Z - success: scene loaded
+2019-04-29T13:20:39.333Z - success: weapp-adapter loaded
+2019-04-29T13:20:39.334Z - success: simulator-debugger loaded
+2019-04-29T13:20:39.334Z - success: sprite-editor loaded
+2019-04-29T13:20:39.348Z - success: store loaded
+2019-04-29T13:20:39.364Z - success: timeline loaded
+2019-04-29T13:20:39.365Z - normal: Watching packages
+2019-04-29T13:20:39.429Z - normal: Run Application
+2019-04-29T13:24:11.527Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:3228
+2019-04-29T13:24:11.529Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:3230
+2019-04-30T02:06:32.642Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:24264
+2019-04-30T02:06:32.649Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:24266
+2019-04-30T02:34:03.765Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:31292
+2019-04-30T02:34:03.767Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:31294
+2019-04-30T02:34:03.771Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:31295
+2019-04-30T02:34:03.776Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:31296
+2019-04-30T02:34:03.776Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:31297
+2019-04-30T05:28:47.417Z - warn: object already destroyed
+2019-04-30T05:28:47.419Z - warn: object already destroyed
+2019-04-30T05:29:11.187Z - warn: object already destroyed
+2019-04-30T05:29:11.187Z - warn: object already destroyed
+2019-04-30T05:43:49.373Z - warn: object already destroyed
+2019-04-30T05:43:49.374Z - warn: object already destroyed
+2019-04-30T10:23:40.366Z - info: shutdown preview server
