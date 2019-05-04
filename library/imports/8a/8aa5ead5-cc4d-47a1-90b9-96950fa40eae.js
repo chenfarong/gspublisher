@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, '8aa5erVzE1HoZC5lpUPpA6u', 'scriptItemGmCmd');
-// prefab/item/scriptItemGmCmd.js
+cc._RF.push(module, '8aa5erVzE1HoZC5lpUPpA6u', 'ScriptGmCmd');
+// prefab/item/ScriptGmCmd.js
 
 "use strict";
 
@@ -18,27 +18,28 @@ cc.Class({
   extends: cc.Component,
 
   properties: {
-    // foo: {
-    //     // ATTRIBUTES:
-    //     default: null,        // The default value will be used only when the component attaching
-    //                           // to a node for the first time
-    //     type: cc.SpriteFrame, // optional, default is typeof default
-    //     serializable: true,   // optional, default is true
-    // },
-    // bar: {
-    //     get () {
-    //         return this._bar;
-    //     },
-    //     set (value) {
-    //         this._bar = value;
-    //     }
-    // },
+    Name: cc.Label
+    //    Cmdline: "",
+    //    Note: ""
   },
 
   // LIFE-CYCLE CALLBACKS:
 
-  // onLoad () {},
+  SetData: function SetData(callback, target, title, cmdline, note) {
+    this.Target = target;
+    this.Callback = callback;
+    this.Name.string = title;
+    this.Cmdline = cmdline;
+    this.Note = note;
+  },
 
+
+  // onLoad () {},
+  Click: function Click() {
+    if (this.Callback) {
+      this.Callback(this.Target, this.Cmdline, this.Note);
+    }
+  },
   start: function start() {}
 
   // update (dt) {},

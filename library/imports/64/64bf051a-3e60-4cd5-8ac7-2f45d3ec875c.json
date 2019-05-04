@@ -6,12 +6,14 @@
   "json": [
     [
       "ID",
+      "NAME",
       "PARENT",
       "CMDLINE",
       "NOTE"
     ],
     [
       "10001",
+      "ECHO",
       "0",
       "{\"cmd\":\"AG_ECHO\"}",
       ""

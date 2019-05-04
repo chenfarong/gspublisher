@@ -1,4 +1,6 @@
 import { XNet, XNetEvent } from "./Network";
+//import "./Config";
+var AConfig = require("Config");
 
 cc.Class({
   extends: cc.Component,
@@ -11,7 +13,10 @@ cc.Class({
     LastCmdName: "", //最后发出的命令名
     RecvCount: 0,
     LabRecvCount: cc.Label,
-    GmJson: { default: null, type: cc.JsonAsset }
+    GmJson: { default: null, type: cc.JsonAsset },
+    ScrollItem: cc.Prefab,
+    ScrollCmd: cc.ScrollView
+    //GmConfig: new AConfig()
   },
 
   netEvent: function(event, msg) {
@@ -36,9 +41,25 @@ cc.Class({
   },
 
   // LIFE-CYCLE CALLBACKS:
+  _onGmCmdClick(tar, cmdline, note) {
+    console.log("_onGmCmdClick:" + cmdline);
+    tar.CmdSend.string = cmdline;
+  },
 
   onLoad() {
     XNet.EarAdd(this);
+
+    for (var i = 0; i < 20; i++) {
+      var item = cc.instantiate(this.ScrollItem);
+      //这里是脚本组件的名字
+      //item.getComponent("RankItem").init(i, playerInfo);
+      let sc = item.getComponent("ScriptGmCmd");
+      if (sc) {
+        sc.SetData(this._onGmCmdClick, this, "echo", "echo", "echo"); //.bind(this);
+      }
+      this.ScrollCmd.content.addChild(item);
+      console.log("++:" + i.toString());
+    }
 
     cc.loader.loadRes(
       "db/gm_cmd",
@@ -48,13 +69,29 @@ cc.Class({
         this._onAfterGmJsonDBLoaded();
       }.bind(this)
     );
+
+    //this.GmConfig.LoadFromFile("db/gm_cmd", this._onAfterGmConfig, this);
+    AConfig.LoadFromFile("db/gm_cmd", this._onAfterGmConfig, this);
+  },
+
+  _onAfterGmConfig(arg) {
+    let v = AConfig.RowFeildValueFirstEx("ID", "10001", "NAME");
+    console.log("++++++++++++++" + v);
   },
 
   start() {},
 
   _onAfterGmJsonDBLoaded() {
     if (this.GmJson) {
-      console.log(JSON.stringify(this.GmJson.json));
+      //console.log(JSON.stringify(this.GmJson.json));
+      if (Array.isArray(this.GmJson.json)) {
+        //this.GmJson.json.forEach(function(item, index, array)
+        for (let i = 0; i < this.GmJson.json.length; i++) {
+          //console.log(item, index);
+          let j = this.GmJson.json[i];
+          console.log(JSON.stringify(j));
+        }
+      }
     }
   },
 
@@ -92,5 +129,10 @@ cc.Class({
     } catch (e) {
       this.CmdResult.string = e.message;
     }
+  },
+
+  //
+  ClickScrollItem() {
+    //看属于行  json instanceof JSONArray
   }
 });
