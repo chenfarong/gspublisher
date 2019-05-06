@@ -44,22 +44,36 @@ cc.Class({
   _onGmCmdClick(tar, cmdline, note) {
     console.log("_onGmCmdClick:" + cmdline);
     tar.CmdSend.string = cmdline;
+    tar.CmdResult.string = note;
+  },
+
+  GmInsert(title, cmdline, note) {
+    var item = cc.instantiate(this.ScrollItem);
+    //这里是脚本组件的名字
+    //item.getComponent("RankItem").init(i, playerInfo);
+    let sc = item.getComponent("ScriptGmCmd");
+    if (sc) {
+      sc.SetData(this._onGmCmdClick, this, title, cmdline, note); //.bind(this);
+    }
+    this.ScrollCmd.content.addChild(item);
   },
 
   onLoad() {
     XNet.EarAdd(this);
 
+    /*    
     for (var i = 0; i < 20; i++) {
       var item = cc.instantiate(this.ScrollItem);
       //这里是脚本组件的名字
       //item.getComponent("RankItem").init(i, playerInfo);
       let sc = item.getComponent("ScriptGmCmd");
       if (sc) {
-        sc.SetData(this._onGmCmdClick, this, "echo", "echo", "echo"); //.bind(this);
+        sc.SetData(this._onGmCmdClick, this, "echo" + i, "echo" + i, "echo"); //.bind(this);
       }
       this.ScrollCmd.content.addChild(item);
       console.log("++:" + i.toString());
     }
+*/
 
     cc.loader.loadRes(
       "db/gm_cmd",
@@ -77,6 +91,12 @@ cc.Class({
   _onAfterGmConfig(arg) {
     let v = AConfig.RowFeildValueFirstEx("ID", "10001", "NAME");
     console.log("++++++++++++++" + v);
+    for (let i = 0; i < AConfig.Count(); i++) {
+      let o = AConfig.RowObject(i);
+      if (o) {
+        arg.GmInsert(o.NAME, o.CMDLINE, o.NOTE);
+      }
+    }
   },
 
   start() {},

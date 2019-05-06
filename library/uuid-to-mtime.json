@@ -105,8 +105,8 @@
     "relativePath": "Script/HelloWorld.js"
   },
   "174750a9-c19a-4c26-9fca-ffff2745655c": {
-    "asset": 1556857949178,
-    "meta": 1556857949200,
+    "asset": 1557116821284,
+    "meta": 1557116821306,
     "relativePath": "Scene/gm.fire"
   },
   "b93c1498-884b-4a6d-9e78-d9462ac10cf4": {
@@ -120,7 +120,7 @@
     "relativePath": "resources/db"
   },
   "4236bb12-9644-4124-9cd4-7d27088ed6ae": {
-    "asset": 1556818074310,
+    "asset": 1556974691979,
     "meta": 1556602088377,
     "relativePath": "prefab/item"
   },
@@ -133,11 +133,6 @@
     "asset": 1556802553186,
     "meta": 1556802558294,
     "relativePath": "resources/db/gm_cmd.json"
-  },
-  "0683016d-4854-4e15-b16c-c39e2cd922c8": {
-    "asset": 1556812700265,
-    "meta": 1556812748208,
-    "relativePath": "Script/Config.js"
   },
   "71561142-4c83-4933-afca-cb7a17f67053": {
     "asset": 1543305034000,
@@ -370,8 +365,13 @@
     "relativePath": "prefab/item/ScriptGmCmd.js"
   },
   "78315486-c012-40e5-a09d-a2c6410bbb20": {
-    "asset": 1556975515361,
-    "meta": 1556975519952,
+    "asset": 1557115813362,
+    "meta": 1557115818740,
     "relativePath": "Script/Gm.js"
+  },
+  "0683016d-4854-4e15-b16c-c39e2cd922c8": {
+    "asset": 1557116689624,
+    "meta": 1557116700787,
+    "relativePath": "Script/Config.js"
   }
 }
