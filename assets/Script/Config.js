@@ -40,6 +40,32 @@ module.exports = {
     return res;
   },
 
+  //符合条件进入到数组中去
+  FindObject(result, kname, kvalue, n = 1) {
+    let j = 0;
+    for (let i = 0; i < this.Count(); i++) {
+      var o = RowObject(i);
+      if (o[kname] == kvalue) {
+        result.push(o);
+        j++;
+      }
+      if (n > 0 && j >= n) break;
+    }
+  },
+
+  //字段中包含的列出来
+  FindObjectIndexOf(result, kname, kvalue, n = 1) {
+    let j = 0;
+    for (let i = 0; i < this.Count(); i++) {
+      var o = RowObject(i);
+      if (o[kname].indexOf(kvalue) != -1) {
+        result.push(o);
+        j++;
+      }
+      if (n > 0 && j >= n) break;
+    }
+  },
+
   Count() {
     if (this.Data.length == 0) return 0;
     return this.Data.length - 1;
@@ -56,6 +82,9 @@ module.exports = {
     return -1;
   },
 
+  ///////////////
+  // 下面用途不大
+  ///////////////
   RowFeildValueFirst(kname, kvalue) {
     let idx = this.FeildIndex(kname);
     if (idx < 0) return null;

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../assets/Script/assets/Script/Game.js"],"names":["XGame","username","password"],"mappings":";;;;;;;;;AAAA,IAAIA,QAAQ;AACVC,YAAU,EADA;AAEVC,YAAU;AAFA,CAAZ;;QAKSF,QAAAA","file":"Game.js","sourceRoot":"../../../../assets/Script","sourcesContent":["var XGame = {\n  username: \"\",\n  password: \"\"\n};\n\nexport { XGame };\n"]}

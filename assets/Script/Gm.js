@@ -1,4 +1,6 @@
 import { XNet, XNetEvent } from "./Network";
+import { XGame } from "./Game";
+
 //import "./Config";
 var AConfig = require("Config");
 
@@ -6,6 +8,7 @@ cc.Class({
   extends: cc.Component,
 
   properties: {
+    Info: cc.Label,
     WsHost: cc.EditBox,
     CmdSend: cc.EditBox,
     CmdResult: cc.EditBox,
@@ -59,6 +62,8 @@ cc.Class({
   },
 
   onLoad() {
+    this.Info.string = "ud=" + XGame.username + ":" + XGame.password;
+
     XNet.EarAdd(this);
 
     /*    

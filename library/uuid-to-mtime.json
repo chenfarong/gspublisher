@@ -105,8 +105,8 @@
     "relativePath": "Script/HelloWorld.js"
   },
   "174750a9-c19a-4c26-9fca-ffff2745655c": {
-    "asset": 1557116821284,
-    "meta": 1557116821306,
+    "asset": 1557373289613,
+    "meta": 1557373289626,
     "relativePath": "Scene/gm.fire"
   },
   "b93c1498-884b-4a6d-9e78-d9462ac10cf4": {
@@ -128,11 +128,6 @@
     "asset": 1556974802969,
     "meta": 1556974802976,
     "relativePath": "prefab/item/GmCmd.prefab"
-  },
-  "64bf051a-3e60-4cd5-8ac7-2f45d3ec875c": {
-    "asset": 1556802553186,
-    "meta": 1556802558294,
-    "relativePath": "resources/db/gm_cmd.json"
   },
   "71561142-4c83-4933-afca-cb7a17f67053": {
     "asset": 1543305034000,
@@ -364,14 +359,34 @@
     "meta": 1556975519952,
     "relativePath": "prefab/item/ScriptGmCmd.js"
   },
-  "78315486-c012-40e5-a09d-a2c6410bbb20": {
-    "asset": 1557115813362,
-    "meta": 1557115818740,
-    "relativePath": "Script/Gm.js"
-  },
   "0683016d-4854-4e15-b16c-c39e2cd922c8": {
-    "asset": 1557116689624,
-    "meta": 1557116700787,
+    "asset": 1557193208615,
+    "meta": 1557193895575,
     "relativePath": "Script/Config.js"
+  },
+  "64bf051a-3e60-4cd5-8ac7-2f45d3ec875c": {
+    "asset": 1557193275181,
+    "meta": 1557193895576,
+    "relativePath": "resources/db/gm_cmd.json"
+  },
+  "20463ec7-b935-4f5e-b6aa-db964bc65d58": {
+    "asset": 1557373459416,
+    "meta": 1557373459422,
+    "relativePath": "Scene/login.fire"
+  },
+  "78a3b9fe-2c02-4742-9e12-ae492b2443c8": {
+    "asset": 1557373083771,
+    "meta": 1557373217795,
+    "relativePath": "Script/Game.js"
+  },
+  "7e544d67-2540-46bc-9318-fe462046105a": {
+    "asset": 1557373213641,
+    "meta": 1557373217796,
+    "relativePath": "Script/Login.js"
+  },
+  "78315486-c012-40e5-a09d-a2c6410bbb20": {
+    "asset": 1557373365835,
+    "meta": 1557373368678,
+    "relativePath": "Script/Gm.js"
   }
 }
