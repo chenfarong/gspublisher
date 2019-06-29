@@ -5,9 +5,9 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": -1677,
-      "y": 53,
-      "width": 1614,
+      "x": 0,
+      "y": 23,
+      "width": 1600,
       "height": 1027,
       "layout": {
         "children": [
@@ -18,23 +18,23 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 445.953125,
+                "height": 446,
                 "type": "panel",
-                "width": 271
+                "width": 269
               },
               {
                 "active": 0,
                 "children": [
                   "assets"
                 ],
-                "height": 497.046875,
+                "height": 497,
                 "type": "panel",
-                "width": 271
+                "width": 269
               }
             ],
             "height": 945,
             "type": "dock-v",
-            "width": 271
+            "width": 269
           },
           {
             "children": [
@@ -43,9 +43,9 @@
                 "children": [
                   "scene"
                 ],
-                "height": 632.34375,
+                "height": 632,
                 "type": "panel",
-                "width": 957
+                "width": 948
               },
               {
                 "active": 0,
@@ -53,14 +53,14 @@
                   "console",
                   "timeline"
                 ],
-                "height": 310.65625,
+                "height": 311,
                 "type": "panel",
-                "width": 957
+                "width": 948
               }
             ],
             "height": 945,
             "type": "dock-v",
-            "width": 957
+            "width": 948
           },
           {
             "active": 0,
@@ -69,7 +69,7 @@
             ],
             "height": 945,
             "type": "panel",
-            "width": 382
+            "width": 379
           }
         ],
         "type": "dock-h"
@@ -92,8 +92,8 @@
       "height": 622
     },
     "builder": {
-      "x": -954,
-      "y": 199,
+      "x": -1392,
+      "y": 200,
       "width": 654,
       "height": 722
     }
