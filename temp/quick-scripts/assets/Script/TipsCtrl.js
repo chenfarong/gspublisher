@@ -27,6 +27,11 @@ cc.Class({
   onDestroySelf: function onDestroySelf() {
     this.node.destroy();
   },
+  onEnable: function onEnable() {
+    //let sz = this.node.parent.getSize();
+    var sz = cc.director.getWinSize();
+    this.node.setPosition(sz.width / 2, sz.height / 2, 0);
+  },
   start: function start() {},
   setContent: function setContent(text) {
     if (text) this.ShowText.string = text;

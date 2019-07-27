@@ -22,6 +22,12 @@ cc.Class({
     this.node.destroy();
   },
 
+  onEnable() {
+    //let sz = this.node.parent.getSize();
+    let sz = cc.director.getWinSize();
+    this.node.setPosition(sz.width / 2, sz.height / 2, 0);
+  },
+
   start() {},
 
   setContent(text) {

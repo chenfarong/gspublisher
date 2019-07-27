@@ -1,60 +1,79 @@
-2019-06-29T11:40:53.431Z - normal: Load ~/.CocosCreator/settings.json
-2019-06-29T11:40:53.467Z - normal: Initializing Asset Database
-2019-06-29T11:40:53.469Z - normal: checking language setting...
-2019-06-29T11:40:53.469Z - normal: Language: zh
-2019-06-29T11:40:54.017Z - success: preview server running at http://localhost:7456
-2019-06-29T11:40:54.052Z - success: protocol editor-framework registered
-2019-06-29T11:40:54.052Z - success: protocol app registered
-2019-06-29T11:40:54.052Z - success: protocol theme registered
-2019-06-29T11:40:54.052Z - success: protocol packages registered
-2019-06-29T11:40:54.052Z - success: protocol uuid registerred
-2019-06-29T11:40:54.052Z - success: protocol db registerred
-2019-06-29T11:40:54.053Z - success: protocol thumbnail registerred
-2019-06-29T11:40:54.053Z - success: protocol unpack registerred
-2019-06-29T11:40:54.053Z - success: protocol disable-commonjs registerred
-2019-06-29T11:40:55.027Z - normal: connected!
-2019-06-29T11:40:55.028Z - normal: Check project /Users/chenfarong/gspublisher
-2019-06-29T11:40:55.029Z - normal: Initializing project /Users/chenfarong/gspublisher
-2019-06-29T11:40:55.467Z - normal: Initializing Cocos2d
-2019-06-29T11:40:55.967Z - normal: Initializing engine extends
-2019-06-29T11:40:55.969Z - normal: Loading editor/builtin packages from /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin
-2019-06-29T11:40:55.973Z - normal: Loading builtin packages from /Applications/CocosCreator.app/Contents/Resources/builtin
-2019-06-29T11:40:56.473Z - success: assets loaded
-2019-06-29T11:40:56.473Z - success: asset-db-debugger loaded
-2019-06-29T11:40:56.519Z - success: builder loaded
-2019-06-29T11:40:56.520Z - success: color-picker loaded
-2019-06-29T11:40:56.603Z - success: cocos-analytics loaded
-2019-06-29T11:40:56.603Z - success: google-play-instant loaded
-2019-06-29T11:40:56.629Z - success: console loaded
-2019-06-29T11:40:56.630Z - success: jsb-adapter loaded
-2019-06-29T11:40:56.676Z - success: fb-instant-games loaded
-2019-06-29T11:40:56.677Z - success: oppo-runtime loaded
-2019-06-29T11:40:56.690Z - success: google-instant-games loaded
-2019-06-29T11:40:56.690Z - success: package-manager loaded
-2019-06-29T11:40:56.827Z - success: hierarchy loaded
-2019-06-29T11:40:56.828Z - success: qqplay-adapter loaded
-2019-06-29T11:40:56.854Z - success: inspector loaded
-2019-06-29T11:40:56.855Z - success: sdkbox loaded
-2019-06-29T11:40:56.873Z - success: keystore loaded
-2019-06-29T11:40:56.873Z - success: tester loaded
-2019-06-29T11:40:56.889Z - success: node-library loaded
-2019-06-29T11:40:56.889Z - success: ui-grid loaded
-2019-06-29T11:40:56.899Z - success: package-asset loaded
-2019-06-29T11:40:56.899Z - success: ui-kit-preview-extra loaded
-2019-06-29T11:40:56.906Z - success: preferences loaded
-2019-06-29T11:40:56.907Z - success: ui-kit-preview loaded
-2019-06-29T11:40:56.916Z - success: project-exporter loaded
-2019-06-29T11:40:56.916Z - success: ui-kit loaded
-2019-06-29T11:40:56.936Z - success: project-importer loaded
-2019-06-29T11:40:56.936Z - success: ui-tree loaded
-2019-06-29T11:40:57.038Z - success: project-settings loaded
-2019-06-29T11:40:57.039Z - success: vivo-runtime loaded
-2019-06-29T11:40:57.047Z - success: scene loaded
-2019-06-29T11:40:57.047Z - success: weapp-adapter loaded
-2019-06-29T11:40:57.052Z - success: simulator-debugger loaded
-2019-06-29T11:40:57.054Z - success: sprite-editor loaded
-2019-06-29T11:40:57.187Z - normal: Loading packages
-2019-06-29T11:40:57.190Z - success: store loaded
-2019-06-29T11:40:57.200Z - success: timeline loaded
-2019-06-29T11:40:57.201Z - normal: Watching packages
-2019-06-29T11:40:57.265Z - normal: Run Application
+2019-07-27T06:00:03.467Z - normal: Load ~/.CocosCreator/settings.json
+2019-07-27T06:00:03.511Z - normal: Initializing Asset Database
+2019-07-27T06:00:03.515Z - normal: checking language setting...
+2019-07-27T06:00:03.515Z - normal: Language: zh
+2019-07-27T06:00:04.249Z - success: preview server running at http://localhost:7456
+2019-07-27T06:00:04.263Z - success: protocol editor-framework registered
+2019-07-27T06:00:04.263Z - success: protocol app registered
+2019-07-27T06:00:04.264Z - success: protocol theme registered
+2019-07-27T06:00:04.264Z - success: protocol packages registered
+2019-07-27T06:00:04.264Z - success: protocol uuid registerred
+2019-07-27T06:00:04.264Z - success: protocol db registerred
+2019-07-27T06:00:04.264Z - success: protocol thumbnail registerred
+2019-07-27T06:00:04.264Z - success: protocol unpack registerred
+2019-07-27T06:00:04.264Z - success: protocol disable-commonjs registerred
+2019-07-27T06:00:04.378Z - normal: connected!
+2019-07-27T06:00:04.379Z - normal: Check project /Users/chenfarong/gspublisher
+2019-07-27T06:00:04.380Z - normal: Initializing project /Users/chenfarong/gspublisher
+2019-07-27T06:00:04.926Z - normal: Initializing Cocos2d
+2019-07-27T06:00:05.448Z - normal: Initializing engine extends
+2019-07-27T06:00:05.451Z - normal: Loading editor/builtin packages from /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin
+2019-07-27T06:00:05.455Z - normal: Loading builtin packages from /Applications/CocosCreator.app/Contents/Resources/builtin
+2019-07-27T06:00:06.000Z - success: assets loaded
+2019-07-27T06:00:06.000Z - success: asset-db-debugger loaded
+2019-07-27T06:00:06.055Z - success: builder loaded
+2019-07-27T06:00:06.056Z - success: color-picker loaded
+2019-07-27T06:00:06.169Z - success: cocos-analytics loaded
+2019-07-27T06:00:06.169Z - success: google-play-instant loaded
+2019-07-27T06:00:06.175Z - success: console loaded
+2019-07-27T06:00:06.175Z - success: jsb-adapter loaded
+2019-07-27T06:00:06.213Z - success: fb-instant-games loaded
+2019-07-27T06:00:06.213Z - success: oppo-runtime loaded
+2019-07-27T06:00:06.269Z - success: google-instant-games loaded
+2019-07-27T06:00:06.269Z - success: package-manager loaded
+2019-07-27T06:00:06.435Z - success: hierarchy loaded
+2019-07-27T06:00:06.436Z - success: qqplay-adapter loaded
+2019-07-27T06:00:06.445Z - success: inspector loaded
+2019-07-27T06:00:06.446Z - success: sdkbox loaded
+2019-07-27T06:00:06.452Z - success: keystore loaded
+2019-07-27T06:00:06.453Z - success: tester loaded
+2019-07-27T06:00:06.463Z - success: node-library loaded
+2019-07-27T06:00:06.463Z - success: ui-grid loaded
+2019-07-27T06:00:06.469Z - success: package-asset loaded
+2019-07-27T06:00:06.470Z - success: ui-kit-preview-extra loaded
+2019-07-27T06:00:06.476Z - success: preferences loaded
+2019-07-27T06:00:06.477Z - success: ui-kit-preview loaded
+2019-07-27T06:00:06.483Z - success: project-exporter loaded
+2019-07-27T06:00:06.483Z - success: ui-kit loaded
+2019-07-27T06:00:06.501Z - success: project-importer loaded
+2019-07-27T06:00:06.501Z - success: ui-tree loaded
+2019-07-27T06:00:06.510Z - success: project-settings loaded
+2019-07-27T06:00:06.511Z - success: vivo-runtime loaded
+2019-07-27T06:00:06.517Z - success: scene loaded
+2019-07-27T06:00:06.518Z - success: weapp-adapter loaded
+2019-07-27T06:00:06.520Z - success: simulator-debugger loaded
+2019-07-27T06:00:06.521Z - success: sprite-editor loaded
+2019-07-27T06:00:06.529Z - success: store loaded
+2019-07-27T06:00:06.534Z - success: timeline loaded
+2019-07-27T06:00:06.966Z - normal: Loading packages
+2019-07-27T06:00:06.976Z - normal: Watching packages
+2019-07-27T06:00:07.039Z - normal: Run Application
+2019-07-27T06:00:50.087Z - normal: Compile engine finished
+2019-07-27T07:02:33.608Z - failed: [db-task][sync-changes] Failed to import asset /Users/chenfarong/gspublisher/assets/Script/Network.js, message: Compile error: SyntaxError: /Users/chenfarong/gspublisher/assets/Script/Network.js: Unexpected token (69:10)
+  67 |     Close() {
+  68 | 
+> 69 |       if (instanceof(this._socket)== WebSocket) {
+     |           ^
+  70 |         this._socket.close();
+  71 |         delete this._socket;
+  72 |         //        this._socket = nil;//这个不需要
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3750:12)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
+    at Parser.pp$3.parseExpression (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3306:19)
+    at Parser.pp$3.parseParenExpression (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3789:18)

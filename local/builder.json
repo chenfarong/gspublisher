@@ -1,5 +1,5 @@
 {
-  "actualPlatform": "web-desktop",
+  "actualPlatform": "android",
   "apiLevel": "android-28",
   "appABIs": [
     "x86",
@@ -12,9 +12,9 @@
   "keystoreAliasPassword": "",
   "keystorePassword": "",
   "keystorePath": "",
-  "platform": "web-desktop",
-  "previewHeight": 768,
-  "previewWidth": 1366,
+  "platform": "android",
+  "previewHeight": "720",
+  "previewWidth": "1280",
   "sourceMaps": true,
   "template": "link",
   "useDebugKeystore": true,

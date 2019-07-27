@@ -25,7 +25,7 @@ var XNetEvent = {
 var XNet = cc.Class({
   extends: cc.Component,
   statics: {
-    _socket: {},
+    _socket: null,
     ws_host: "ws://test.9966886699.com:8086/game",
     _netPros: new Map(),
     _netEars: new Array(),
@@ -55,10 +55,10 @@ var XNet = cc.Class({
     },
 
     Open: function Open() {
-      if (this._socket == null || this._socket.readyState != WebSocket.OPEN) {
+      //console.log("ss:" + this._socket.readyState);
+      if (this._socket == null) {
         console.log("connect " + this.ws_host);
         //            if(this._socket!=null) delete this._socket;
-
         this._socket = new WebSocket(this.ws_host);
         this._socket.onopen = this._onOpen.bind(this);
         this._socket.onerror = this._onError.bind(this);
@@ -75,10 +75,16 @@ var XNet = cc.Class({
     },
 
     Close: function Close() {
-      if (this._socket && this._socket.readyState == 1) {
+      if (this._socket != null) {
+        this._socket.close();
         delete this._socket;
         //        this._socket = nil;//这个不需要
         //cc.director.getScheduler().
+        console.log("WebSocket is closed now.");
+        XNet.dispatchXNet(XNetEvent.CLOSE, {
+          cmd: XNetEvent.CLOSE,
+          rc: 0
+        });
       }
     },
     readyState: function readyState() {
@@ -120,6 +126,11 @@ var XNet = cc.Class({
         cmd: XNetEvent.CLOSE,
         rc: 0
       });
+
+      // if (this._socket) {
+      //   delete this._socket;
+      //   this._socket = null;
+      // }
     },
 
     _onMessage: function _onMessage(event) {
