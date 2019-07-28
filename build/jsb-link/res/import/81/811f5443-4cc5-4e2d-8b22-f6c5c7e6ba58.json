@@ -1,1 +1,0 @@
-{"__type__":"cc.AnimationClip","_name":"labGamePort","_duration":0.8333333333333334,"curveData":{"props":{"color":[{"frame":0,"value":{"__type__":"cc.Color"}},{"frame":0.8333333333333334,"value":{"__type__":"cc.Color","r":104,"g":255}}]}},"events":[{"frame":0,"func":"","params":[]},{"frame":0.8333333333333334,"func":"","params":[]}]}
