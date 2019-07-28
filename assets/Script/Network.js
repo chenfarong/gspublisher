@@ -2,6 +2,10 @@ var WebSocket = WebSocket || window.WebSocket || window.MozWebSocket;
 
 //import { XOpcodes } from "./Opcodes";
 
+/*
+websocket 两种监听方式
+*/
+
 var XNetEvent = {
   CONNECT: "XC_NET_CONNECT",
   CONNECT_ERROR: "XC_NET_CONNECT_ERROR",
@@ -135,6 +139,9 @@ var XNet = cc.Class({
       XNet.dispatchXNet(msg.cmd, msg);
     },
 
+    /**
+     * 添加监听
+     */
     ListenerAdd(event, callback) {
       if (!event || !callback) return;
       var listenerList = this._netPros[event];
