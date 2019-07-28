@@ -37,7 +37,8 @@ var XGame = cc.Class({
           //console.log("recv:" + xhr.responseText);
           if (xhr.status === 200) {
             //收到内容后处理
-            this.whereResult = JSON.parse(xhr.responseText);
+            XGame.whereResult = JSON.parse(xhr.responseText);
+            //console.log("====", JSON.stringify(XGame.whereResult));
             callback(who, xhr.responseText);
           } else {
             callback(who, null);
@@ -55,7 +56,10 @@ var XGame = cc.Class({
     },
 
     //向游戏服务器查询版本号
-    Version: function(callback, who) {},
+    Version: function(callback, who) {
+      console.log(JSON.stringify(XGame.whereResult));
+      //发送请求版本命令
+    },
 
     //这里实现逻辑帧
     //dt 上一帧到本帧时间差
