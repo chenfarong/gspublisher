@@ -126,7 +126,7 @@ cc.Class({
     if (this.WsHost.string.length < 1) {
       return;
     }
-    XNet.Close();
+    //XNet.Close();
     XNet.Host("ws://test.9966886699.com:8086/xx");
     XNet.Open();
     /*

@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, '280c3rsZJJKnZ9RqbALVwtK', 'HelloWorld');
-// Script/HelloWorld.js
+cc._RF.push(module, '280c3rsZJJKnZ9RqbALVwtK', 'Home');
+// Script/Home.js
 
 "use strict";
 
@@ -26,6 +26,8 @@ cc.Class({
     text: "准备就绪",
     tipsPrefab: cc.Prefab
   },
+
+  ShowStory: function ShowStory() {},
 
   netEvent: function netEvent(event, msg) {
     //这里处理游戏来的所有事件

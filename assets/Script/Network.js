@@ -25,6 +25,11 @@ var XNet = cc.Class({
     _reConnectFlag: false,
     _reConnectMax: 3,
 
+    /**
+     * 发布收到事件消息
+     * event事件名
+     * msg 消息内容
+     */
     dispatchXNet(event, msg) {
       //        XGame.DoXEvent(event,msg);
 

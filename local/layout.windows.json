@@ -18,7 +18,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 445.15625,
+                "height": 445.953125,
                 "type": "panel",
                 "width": 269
               },
@@ -27,12 +27,12 @@
                 "children": [
                   "assets"
                 ],
-                "height": 496.0625,
+                "height": 497.046875,
                 "type": "panel",
                 "width": 269
               }
             ],
-            "height": 943.21875,
+            "height": 945,
             "type": "dock-v",
             "width": 269
           },
@@ -43,7 +43,7 @@
                 "children": [
                   "scene"
                 ],
-                "height": 630.8125,
+                "height": 632.34375,
                 "type": "panel",
                 "width": 948
               },
@@ -53,12 +53,12 @@
                   "console",
                   "timeline"
                 ],
-                "height": 310.40625,
+                "height": 310.65625,
                 "type": "panel",
                 "width": 948
               }
             ],
-            "height": 943.21875,
+            "height": 945,
             "type": "dock-v",
             "width": 948
           },
@@ -67,7 +67,7 @@
             "children": [
               "inspector"
             ],
-            "height": 943.21875,
+            "height": 945,
             "type": "panel",
             "width": 379
           }
@@ -81,6 +81,22 @@
         "timeline",
         "inspector",
         "scene"
+      ]
+    },
+    "window-1564293712843": {
+      "main": false,
+      "url": "unpack://static/window.html",
+      "windowType": "dockable",
+      "x": 695,
+      "y": 220,
+      "width": 800,
+      "height": 622,
+      "layout": {
+        "children": [],
+        "type": "dock-v"
+      },
+      "panels": [
+        "simulator-debugger"
       ]
     }
   },
