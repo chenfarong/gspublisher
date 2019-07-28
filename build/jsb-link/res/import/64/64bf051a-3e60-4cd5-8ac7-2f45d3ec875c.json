@@ -1,0 +1,1 @@
+{"__type__":"cc.JsonAsset","_name":"gm_cmd","json":[["ID","NAME","PARENT","CMDLINE","NOTE"],["10001","ECHO","","{\"cmd\":\"AG_ECHO\"}",""]]}
