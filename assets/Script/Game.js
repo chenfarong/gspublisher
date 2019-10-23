@@ -1,70 +1,47 @@
-//import { XNet } from "./Network";
+// Learn cc.Class:
+//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
+//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
+// Learn Attribute:
+//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
+//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
+// Learn life-cycle callbacks:
+//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
+//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
 
-var XGame = cc.Class({
-  extends: cc.Component,
-  statics: {
-    clientVersion: 10000, //客户端程序版本号
-    resVersion: 10000, //资源版本号
-    username: "",
-    password: "",
-    accid: "", //账号
-    aid: "", //角色编号
-    token: "", //令牌
-    whereResult: {}, //游戏服务位置
-    sdtime: 0, //和服务器之间的时间差 毫秒
+cc.Class({
+    extends: cc.Component,
 
-    whereUrl: [
-      "http://where.9966886699.com/xx/",
-      "http://where.9966886699.com/xx/",
-      "http://where.9966886699.com/xx/"
-    ],
-
-    //向服务获取游戏服务器位置
-    Where: function(callback, who, n) {
-      n = n % 3;
-      let url = "http://where.9966886699.com/xx/";
-      url = this.whereUrl[n];
-
-      //从位置中心查询游戏服务器位置 http post 获得
-      let req = {};
-      req.cmd = "GX_WHERE";
-      req.ver = "1000";
-      req.realm = "android";
-      //XNet.HttpPost("http://where.9966886699.com/xx/", req);
-      var xhr = cc.loader.getXMLHttpRequest();
-      xhr.onreadystatechange = function() {
-        if (xhr.readyState === 4) {
-          //console.log("recv:" + xhr.responseText);
-          if (xhr.status === 200) {
-            //收到内容后处理
-            XGame.whereResult = JSON.parse(xhr.responseText);
-            //console.log("====", JSON.stringify(XGame.whereResult));
-            callback(who, xhr.responseText);
-          } else {
-            callback(who, null);
-          }
-        }
-      };
-      xhr.open("POST", url);
-      xhr.timeout = 5000; //5 seconds for timeout
-      xhr.ontimeout = () => {
-        console.error("Timeout!!");
-        callback(who, null);
-      };
-
-      xhr.send(JSON.stringify(req));
+    properties: {
+        // foo: {
+        //     // ATTRIBUTES:
+        //     default: null,        // The default value will be used only when the component attaching
+        //                           // to a node for the first time
+        //     type: cc.SpriteFrame, // optional, default is typeof default
+        //     serializable: true,   // optional, default is true
+        // },
+        // bar: {
+        //     get () {
+        //         return this._bar;
+        //     },
+        //     set (value) {
+        //         this._bar = value;
+        //     }
+        // },
     },
 
-    //向游戏服务器查询版本号
-    Version: function(callback, who) {
-      console.log(JSON.stringify(XGame.whereResult));
-      //发送请求版本命令
+    // LIFE-CYCLE CALLBACKS:
+
+    // onLoad () {},
+
+    start () {
+
     },
 
-    //这里实现逻辑帧
-    //dt 上一帧到本帧时间差
-    Update: function(dt) {}
-  }
+    
+    SendToServer(){
+
+    }
+
+
+    // update (dt) {},
 });
-
-export { XGame };

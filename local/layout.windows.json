@@ -18,23 +18,23 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 428.5,
+                "height": 446.140625,
                 "type": "panel",
-                "width": 266.296875
+                "width": 269
               },
               {
                 "active": 0,
                 "children": [
                   "assets"
                 ],
-                "height": 477.5,
+                "height": 495.0625,
                 "type": "panel",
-                "width": 266.296875
+                "width": 269
               }
             ],
-            "height": 908,
+            "height": 943.21875,
             "type": "dock-v",
-            "width": 266.296875
+            "width": 269
           },
           {
             "children": [
@@ -43,9 +43,9 @@
                 "children": [
                   "scene"
                 ],
-                "height": 607.203125,
+                "height": 630.8125,
                 "type": "panel",
-                "width": 938.5
+                "width": 1023
               },
               {
                 "active": 0,
@@ -53,23 +53,23 @@
                   "console",
                   "timeline"
                 ],
-                "height": 298.796875,
+                "height": 310.40625,
                 "type": "panel",
-                "width": 938.5
+                "width": 1023
               }
             ],
-            "height": 908,
+            "height": 943.21875,
             "type": "dock-v",
-            "width": 938.5
+            "width": 1023
           },
           {
             "active": 0,
             "children": [
               "inspector"
             ],
-            "height": 908,
+            "height": 943.21875,
             "type": "panel",
-            "width": 375.203125
+            "width": 304
           }
         ],
         "type": "dock-h"
@@ -102,6 +102,12 @@
       "y": 252,
       "width": 500,
       "height": 522
+    },
+    "project-settings": {
+      "x": 524,
+      "y": 252,
+      "width": 584,
+      "height": 548
     }
   }
 }

@@ -91,10 +91,18 @@ cc.Class({
         showText.string = "成功获取游戏服务器位置";
       }
     }
+    //console.log("222", JSON.stringify(XGame.whereResult));
+    if (_Game.XGame.whereResult.rc != 0) {
+      //中部一直显示文本内容
+    } else {
+      _Game.XGame.Version(this.cbUpgrade, this);
+    }
   },
 
   //
   cbUpgrade: function cbUpgrade(who, response) {}
+  //如果返回要求升级JS代码部分
+
 
   // update (dt) {},
 });
