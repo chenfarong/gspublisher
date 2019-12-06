@@ -4,19 +4,7 @@ cc._RF.push(module, '04eb4hVhTJB+oLGVnCuAdiX', 'GMain');
 
 "use strict";
 
-var _Game = require("./Game");
-
 var _Network = require("./Network");
-
-// Learn cc.Class:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
-// Learn Attribute:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
 
 cc.Class({
   extends: cc.Component,
@@ -64,7 +52,6 @@ cc.Class({
   },
   start: function start() {
     this.TryTick = 1;
-    _Game.XGame.Where(this.cbWhere, this, this.TryTick);
   },
 
 
@@ -74,7 +61,7 @@ cc.Class({
     who.TryTick++;
     //    console.log(who.TryTick);
     if (response == null) {
-      _Game.XGame.Where(who.cbWhere, who.TryTick);
+      XGame.Where(who.cbWhere, who.TryTick);
     } else {
       //进行热更新判断
       _Network.XNet.dispatchXNet("GX_WHERE_R", response);
@@ -92,11 +79,6 @@ cc.Class({
       }
     }
     //console.log("222", JSON.stringify(XGame.whereResult));
-    if (_Game.XGame.whereResult.rc != 0) {
-      //中部一直显示文本内容
-    } else {
-      _Game.XGame.Version(this.cbUpgrade, this);
-    }
   },
 
   //
@@ -105,6 +87,14 @@ cc.Class({
 
 
   // update (dt) {},
-});
+}); // Learn cc.Class:
+//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
+//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
+// Learn Attribute:
+//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
+//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
+// Learn life-cycle callbacks:
+//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
+//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
 
 cc._RF.pop();

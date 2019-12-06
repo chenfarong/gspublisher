@@ -8,8 +8,6 @@
 //  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
 
-import { XGame } from "./Game";
-
 cc.Class({
   extends: cc.Component,
 
@@ -25,8 +23,6 @@ cc.Class({
   start() {},
 
   ClickStart() {
-    XGame.username = this.Username.string;
-    XGame.password = this.Password.string;
     cc.director.loadScene("gm");
   }
 

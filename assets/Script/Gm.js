@@ -1,5 +1,4 @@
 import { XNet, XNetEvent } from "./Network";
-import { XGame } from "./Game";
 
 //import "./Config";
 var AConfig = require("Config");
@@ -62,8 +61,6 @@ cc.Class({
   },
 
   onLoad() {
-    this.Info.string = "ud=" + XGame.username + ":" + XGame.password;
-
     XNet.EarAdd(this);
 
     /*    

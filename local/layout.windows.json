@@ -18,7 +18,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 446.140625,
+                "height": 446.953125,
                 "type": "panel",
                 "width": 269
               },
@@ -27,12 +27,12 @@
                 "children": [
                   "assets"
                 ],
-                "height": 495.0625,
+                "height": 496.046875,
                 "type": "panel",
                 "width": 269
               }
             ],
-            "height": 943.21875,
+            "height": 945,
             "type": "dock-v",
             "width": 269
           },
@@ -43,7 +43,7 @@
                 "children": [
                   "scene"
                 ],
-                "height": 630.8125,
+                "height": 632.34375,
                 "type": "panel",
                 "width": 1023
               },
@@ -53,12 +53,12 @@
                   "console",
                   "timeline"
                 ],
-                "height": 310.40625,
+                "height": 310.65625,
                 "type": "panel",
                 "width": 1023
               }
             ],
-            "height": 943.21875,
+            "height": 945,
             "type": "dock-v",
             "width": 1023
           },
@@ -67,7 +67,7 @@
             "children": [
               "inspector"
             ],
-            "height": 943.21875,
+            "height": 945,
             "type": "panel",
             "width": 304
           }
@@ -82,7 +82,8 @@
         "inspector",
         "scene"
       ]
-    }
+    },
+    "window-1575366875615": {}
   },
   "panels": {
     "simulator-debugger": {
@@ -92,8 +93,8 @@
       "height": 622
     },
     "builder": {
-      "x": 513,
-      "y": 141,
+      "x": 998,
+      "y": 227,
       "width": 654,
       "height": 722
     },
@@ -104,8 +105,8 @@
       "height": 522
     },
     "project-settings": {
-      "x": 524,
-      "y": 252,
+      "x": -2082,
+      "y": 301,
       "width": 584,
       "height": 548
     }

@@ -8,7 +8,6 @@
 //  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
 
-import { XGame } from "./Game";
 import { XNet } from "./Network";
 
 cc.Class({
@@ -57,7 +56,6 @@ cc.Class({
 
   start() {
     this.TryTick = 1;
-    XGame.Where(this.cbWhere, this, this.TryTick);
   },
 
   cbWhere: function(who, response) {
@@ -84,11 +82,6 @@ cc.Class({
       }
     }
     //console.log("222", JSON.stringify(XGame.whereResult));
-    if (XGame.whereResult.rc != 0) {
-      //中部一直显示文本内容
-    } else {
-      XGame.Version(this.cbUpgrade, this);
-    }
   },
 
   //

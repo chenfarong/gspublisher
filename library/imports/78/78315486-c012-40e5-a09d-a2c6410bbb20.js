@@ -6,8 +6,6 @@ cc._RF.push(module, '78315SGwBJA5aCdosZBC7sg', 'Gm');
 
 var _Network = require("./Network");
 
-var _Game = require("./Game");
-
 //import "./Config";
 var AConfig = require("Config");
 
@@ -67,8 +65,6 @@ cc.Class({
     this.ScrollCmd.content.addChild(item);
   },
   onLoad: function onLoad() {
-    this.Info.string = "ud=" + _Game.XGame.username + ":" + _Game.XGame.password;
-
     _Network.XNet.EarAdd(this);
 
     /*    
