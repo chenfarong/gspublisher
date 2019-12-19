@@ -5,7 +5,7 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 0,
+      "x": 9,
       "y": 23,
       "width": 1600,
       "height": 1027,
@@ -18,7 +18,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 446.953125,
+                "height": 447,
                 "type": "panel",
                 "width": 269
               },
@@ -27,12 +27,12 @@
                 "children": [
                   "assets"
                 ],
-                "height": 496.046875,
+                "height": 495.984375,
                 "type": "panel",
                 "width": 269
               }
             ],
-            "height": 945,
+            "height": 946,
             "type": "dock-v",
             "width": 269
           },
@@ -43,9 +43,9 @@
                 "children": [
                   "scene"
                 ],
-                "height": 632.34375,
+                "height": 632,
                 "type": "panel",
-                "width": 1023
+                "width": 1020.984375
               },
               {
                 "active": 0,
@@ -53,21 +53,21 @@
                   "console",
                   "timeline"
                 ],
-                "height": 310.65625,
+                "height": 311,
                 "type": "panel",
-                "width": 1023
+                "width": 1020.984375
               }
             ],
-            "height": 945,
+            "height": 946,
             "type": "dock-v",
-            "width": 1023
+            "width": 1020.984375
           },
           {
             "active": 0,
             "children": [
               "inspector"
             ],
-            "height": 945,
+            "height": 946,
             "type": "panel",
             "width": 304
           }
@@ -77,13 +77,12 @@
       "panels": [
         "hierarchy",
         "assets",
+        "scene",
         "console",
         "timeline",
-        "inspector",
-        "scene"
+        "inspector"
       ]
-    },
-    "window-1575366875615": {}
+    }
   },
   "panels": {
     "simulator-debugger": {
